@@ -11,8 +11,8 @@ on:
 
 env:
   AWS_REGION: us-east-1
-  ECR_REPOSITORY: rag-qa-system-hybrid
-  APP_RUNNER_SERVICE: rag-qa-app-hybrid
+  ECR_REPOSITORY: rag-qa-chatbot
+  APP_RUNNER_SERVICE: rag-qa-chatbot-app
 
 jobs:
   # ============================================
@@ -39,6 +39,11 @@ jobs:
         id: login-ecr
         uses: aws-actions/amazon-ecr-login@v2
 
+      - name: Debug ECR registry
+        run: |
+          echo "ECR Registry from login:"
+          echo "${{ steps.login-ecr.outputs.registry }}"
+
       - name: Build, tag, and push image to ECR
         id: build-image
         env:
@@ -58,7 +63,7 @@ jobs:
 
           echo "✅ Image pushed: $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG"
 
-  # ============================================
+  ## ============================================
   # Deploy to App Runner
   # ============================================
   deploy:
