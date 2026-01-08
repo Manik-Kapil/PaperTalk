@@ -523,38 +523,6 @@ Deploys to AWS on push to `main`:
 
 ---
 
-## 🤝 Contributing
-
-We welcome contributions! Here's how you can help:
-
-### 🐛 Report Bugs
-
-Found a bug? [Open an issue](https://github.com/yourusername/rag-qa-project/issues) with:
-- Clear description
-- Steps to reproduce
-- Expected vs actual behavior
-- Environment details
-
-### 💡 Suggest Features
-
-Have an idea? [Create a feature request](https://github.com/yourusername/rag-qa-project/issues/new) with:
-- Use case description
-- Proposed solution
-- Alternative approaches considered
-
-### 🔧 Submit Pull Requests
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Make your changes
-4. Add tests for new functionality
-5. Ensure all tests pass (`pytest`)
-6. Format code (`black app/ tests/`)
-7. Lint code (`ruff check app/ tests/`)
-8. Commit changes (`git commit -m 'Add amazing feature'`)
-9. Push to branch (`git push origin feature/amazing-feature`)
-10. Open a Pull Request
-
 ### 📜 Development Guidelines
 
 - ✅ Write tests for new features
@@ -583,28 +551,6 @@ Have an idea? [Create a feature request](https://github.com/yourusername/rag-qa-
 
 ---
 
-## 📄 License
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
-```
-MIT License
-
-Copyright (c) 2025 RAG Q&A System Contributors
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-```
-
----
-
 ## 🙏 Acknowledgments
 
 Built with amazing open-source tools:
@@ -618,16 +564,6 @@ Built with amazing open-source tools:
 - 📊 [RAGAS](https://docs.ragas.io/) - RAG evaluation
 - 🔍 [LangSmith](https://smith.langchain.com/) - Observability
 
-Special thanks to all [contributors](https://github.com/yourusername/rag-qa-project/graphs/contributors)!
-
----
-
-## 💬 Support
-
-- 📧 **Email**: your.email@example.com
-- 💬 **Issues**: [GitHub Issues](https://github.com/yourusername/rag-qa-project/issues)
-- 📖 **Documentation**: [Wiki](https://github.com/yourusername/rag-qa-project/wiki)
-- 🐦 **Twitter**: [@yourhandle](https://twitter.com/yourhandle)
 
 ---
 
@@ -635,10 +571,6 @@ Special thanks to all [contributors](https://github.com/yourusername/rag-qa-proj
 
 ### ⭐ Star this repo if you find it helpful!
 
-**Made with ❤️ by the RAG Q&A Team**
-
-[Report Bug](https://github.com/yourusername/rag-qa-project/issues) •
-[Request Feature](https://github.com/yourusername/rag-qa-project/issues) •
-[Contribute](CONTRIBUTING.md)
+**Made with ❤️ by the PaperTalk Team**
 
 </div>
